@@ -1,6 +1,5 @@
-job('example') {
+job('example1') {
     steps {
         shell('THIS IS GANESH GOHANE')
-        gradle('check')
     }
 }
