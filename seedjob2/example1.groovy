@@ -1,4 +1,4 @@
-job('example1') {
+job('example2') {
     steps {
         shell('THIS IS GANESH GOHANE')
     }
