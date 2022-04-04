@@ -1,6 +1,6 @@
 job('example') {
     steps {
-        shell('echo START')
+        shell('THIS IS GANESH GOHANE')
         gradle('check')
     }
 }
