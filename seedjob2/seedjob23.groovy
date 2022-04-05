@@ -2,7 +2,7 @@ pipelineJob('Bkup2') {
 
   description('')
 
-  displayName('Bkup1')
+  displayName('Bkup2')
  
   configure { flowdefinition ->
 
