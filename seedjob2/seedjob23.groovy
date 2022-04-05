@@ -1,4 +1,4 @@
-pipelineJob('scriptedpipeline_converted') {
+pipelineJob('Bkup1') {
 
   description('')
 
