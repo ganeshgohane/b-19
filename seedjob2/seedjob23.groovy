@@ -1,4 +1,4 @@
-pipelineJob('Bkup1') {
+pipelineJob('Bkup2') {
 
   description('')
 
