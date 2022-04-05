@@ -4,16 +4,7 @@ pipelineJob('Bkup1') {
 
   displayName('Bkup1')
 
-  keepDependencies(false)
-
-  quietPeriod(0)
-
-  checkoutRetryCount(0)
-
-  disabled(false)
-
-  concurrentBuild(false)
-
+ 
   configure { flowdefinition ->
 
     flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2683.vd0a_8f6a_1c263') {
