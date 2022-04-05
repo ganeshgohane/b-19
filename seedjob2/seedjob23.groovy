@@ -2,7 +2,7 @@ pipelineJob('Bkup1') {
 
   description('')
 
-  displayName('scriptedpipeline_converted')
+  displayName('Bkup1')
 
   keepDependencies(false)
 
