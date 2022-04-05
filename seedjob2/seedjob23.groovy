@@ -3,7 +3,6 @@ pipelineJob('Bkup1') {
   description('')
 
   displayName('Bkup1')
-
  
   configure { flowdefinition ->
 
