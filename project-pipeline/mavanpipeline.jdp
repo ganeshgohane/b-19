@@ -10,7 +10,7 @@
             steps {
           
             }
-        }
+        
         stage('Test') { 
             steps {
                 echo 'PIPELINE TEST SUCCESSFULLY'
