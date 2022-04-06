@@ -8,7 +8,7 @@
         }
         stage('Build') { 
             steps {
-            echo sh 'mvn package'
+            sh 'mvn package'
             }
         }
         stage('Test') { 
