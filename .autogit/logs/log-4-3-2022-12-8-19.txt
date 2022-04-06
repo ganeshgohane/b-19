@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Apr 04 2022 12:08:19 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* seedjobs/seedjob1.groovy
+
+
+Deleted files:
+
+
+Renamed files:

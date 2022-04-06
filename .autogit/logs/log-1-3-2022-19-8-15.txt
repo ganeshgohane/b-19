@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Apr 01 2022 19:08:15 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* project-pipeline/declarativepipeline.jdp
+* project-pipeline/scriptedpipeline.groovy
+
+
+Deleted files:
+
+
+Renamed files:
