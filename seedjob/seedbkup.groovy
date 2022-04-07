@@ -1,8 +1,8 @@
-pipelineJob('bkup1') {
+pipelineJob('bkup2') {
 
   description('')
 
-  displayName('bkup1')
+  displayName('bkup2')
 
   configure { flowdefinition ->
 
