@@ -2,7 +2,7 @@ pipelineJob('bkup1') {
 
   description('')
 
-  displayName('scriptedpipelines_converted')
+  displayName('bkup1')
 
   configure { flowdefinition ->
 
