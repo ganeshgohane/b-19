@@ -4,7 +4,6 @@ pipelineJob('scriptedpipelines_converted') {
 
   displayName('scriptedpipelines_converted')
 
-
   configure { flowdefinition ->
 
     flowdefinition / 'properties' << 'com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty'(plugin:'gitlab-plugin@1.5.29') {
