@@ -4,16 +4,6 @@ pipelineJob('scriptedpipelines_converted') {
 
   displayName('scriptedpipelines_converted')
 
-  keepDependencies(false)
-
-  quietPeriod(0)
-
-  checkoutRetryCount(0)
-
-  disabled(false)
-
-  concurrentBuild(false)
-
   configure { flowdefinition ->
 
     flowdefinition / 'properties' << 'com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty'(plugin:'gitlab-plugin@1.5.29') {
