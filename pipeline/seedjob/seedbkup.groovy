@@ -1,4 +1,4 @@
-pipelineJob('scriptedpip') {
+pipelineJob('bkup2') {
 
   description('')
 
