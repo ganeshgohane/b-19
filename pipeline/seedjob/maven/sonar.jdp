@@ -6,11 +6,10 @@ pipeline {
                 git 'https://github.com/ganeshgohane/b-19.git'
             }
         }
-        stage('Build') { 
+           stage('Build'){
             steps {
-                with sonarqube Env ('sonar') {
-                sh 'mvn clean package sonar:sonar'
-                }
+                sh 'mvn clean package '
+           }
         }
         stage('Test') { 
             steps {
