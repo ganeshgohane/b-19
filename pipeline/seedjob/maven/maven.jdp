@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                echo 'PIPELINE TEST SUCCESSFULLY'
+               sh 'mvn sonar :sonar'
             }
         }
         stage('Deploy') { 
