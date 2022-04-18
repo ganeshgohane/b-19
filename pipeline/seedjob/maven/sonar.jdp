@@ -1,25 +1,24 @@
 pipeline {
-    agent any 
+    agent any
     stages {
-        stage('PULL') { 
+        stage('Pull'){
             steps {
-                git 'https://github.com/ganeshgohane/b-19.git'
+                git 'https://github.com/shubhamkalsait/studentapp-ui.git'
             }
         }
-           stage('Build'){
+        stage('Build'){
             steps {
                 sh 'mvn clean package '
-           }
-        }
-        stage('Test') { 
-            steps {
-                echo "TEST SUCCESSFULLY"
-              
             }
         }
-        stage('Deploy') { 
+        stage('Test'){
             steps {
-                echo 'PIPELINE DEPLOY SUCCESSFULLY'
+                echo 'Test Successful by shubham'
+            }
+        }
+        stage('Deploy'){
+            steps {
+                echo 'Deploy Successful by shubham'
             }
         }
     }
