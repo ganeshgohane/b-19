@@ -18,7 +18,7 @@ pipeline {
                 }
             }
         }
- stage('Deploy'){
+        stage('Deploy'){
             steps {
                 echo 'Deploy Successful by shubham'
             }
