@@ -8,13 +8,14 @@ pipeline {
         }
         stage('Build') { 
             steps {
-                  with sonarqube Env ('sonar'){
+                  with sonarqube Env ('sonar') {
                 sh 'mvn clean package'sonar:sonar'
                 }
     
            }
         stage('Test') { 
             steps {
+                echo "TEST SUCCESSFULLY"
               
             }
         }
