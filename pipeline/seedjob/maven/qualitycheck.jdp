@@ -20,9 +20,9 @@ pipeline {
         }
          stage('Quality check'){
             steps {timeout(time: 1, unit: 'HOURS') {
-    // some block
-}
-             waitForQualityGate abortPipeline: true, credentialsId: 'sonarqubetoken'  
+        waitForQualityGate abortPipeline: true, credentialsId: 'sonarqubetoken'
+     }
+              
             }
         }
         stage('Deploy'){
