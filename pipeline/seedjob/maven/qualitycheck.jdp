@@ -19,7 +19,7 @@ pipeline {
             }
         }
          stage('Quality check'){
-            steps {   [timeout(2) {
+            steps {    [timeout(2) {
         waitForQualityGate abortPipeline: true, credentialsId: 'sonarqubetoken'
                 }
             }
@@ -31,3 +31,4 @@ pipeline {
         }
     }
 }
+  
