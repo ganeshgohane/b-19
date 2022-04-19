@@ -20,7 +20,7 @@ pipeline {
         }
          stage('Quality check'){
             steps {
-               
+             waitForQualityGate abortPipeline: true, credentialsId: 'sonarqubetoken'  
             }
         }
         stage('Deploy'){
